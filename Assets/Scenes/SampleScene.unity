@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &91720622
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5068,10 +5068,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1833030599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.57995147}
-  m_AnchoredPosition: {x: -7.68, y: 430.09}
-  m_SizeDelta: {x: 280.37, y: 69.24}
+  m_AnchorMin: {x: 0.423, y: 0.86500007}
+  m_AnchorMax: {x: 0.56960416, y: 1}
+  m_AnchoredPosition: {x: -0.6799927, y: 0.72998047}
+  m_SizeDelta: {x: -1.6300049, y: -1.4700012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &311387030
 MonoBehaviour:
@@ -5556,10 +5556,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1349760798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
-  m_SizeDelta: {x: 473.8, y: 118.45}
+  m_AnchorMin: {x: 0.028412266, y: 0.09876139}
+  m_AnchorMax: {x: 0.96700007, y: 0.9236563}
+  m_AnchoredPosition: {x: 1, y: -1.5}
+  m_SizeDelta: {x: 5.799988, y: 1.449997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &630570949
 MonoBehaviour:
@@ -5608,7 +5608,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 106
+  m_fontSize: 105.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5851,10 +5851,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1833030599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.37, y: 470.15}
-  m_SizeDelta: {x: 242.91, y: 107.62}
+  m_AnchorMin: {x: 0.43300003, y: 0.8853704}
+  m_AnchorMax: {x: 0.56031257, y: 0.9845186}
+  m_AnchoredPosition: {x: -0.8699951, y: 0.6499939}
+  m_SizeDelta: {x: -2.0899963, y: 0.6199951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116433350
 MonoBehaviour:
@@ -5903,12 +5903,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 95.3
+  m_fontSize: 95.4
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 0.6
-  m_fontSizeMax: 185.31
+  m_fontSizeMin: 0
+  m_fontSizeMax: 189.75
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -6215,10 +6215,10 @@ RectTransform:
   - {fileID: 630570948}
   m_Father: {fileID: 1833030599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -448}
-  m_SizeDelta: {x: 498.39, y: 141.61}
+  m_AnchorMin: {x: 0.37029174, y: 0.019370371}
+  m_AnchorMax: {x: 0.6283749, y: 0.14811115}
+  m_AnchoredPosition: {x: 1, y: 1.5}
+  m_SizeDelta: {x: 2.3900146, y: 2.6099854}
   m_Pivot: {x: 0.5, y: 0.49999994}
 --- !u!1 &1473672073
 GameObject:
@@ -6376,7 +6376,7 @@ GameObject:
   - component: {fileID: 1833030597}
   - component: {fileID: 1833030596}
   m_Layer: 5
-  m_Name: score
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
