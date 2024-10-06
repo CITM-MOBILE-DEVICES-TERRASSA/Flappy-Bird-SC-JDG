@@ -15,6 +15,7 @@ public class playerController : MonoBehaviour
     int score = 0;
 
     bool dead = false;
+    public ParticleSystem deathParticles;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +42,13 @@ public class playerController : MonoBehaviour
         dead = true;
         score = 0;
         scoreText.text = "0";
+
+        // Reproducir el sistema de partículas.
+        deathParticles.Play();
+
+       
+
+
     }
 
     void OnTriggerExit2D(Collider2D col)
