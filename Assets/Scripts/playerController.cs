@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class playerController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] AudioClip jumpSound;
+    private AudioSource audioSource;
     Rigidbody2D bird;
 
     int score = 0;
@@ -18,6 +20,7 @@ public class playerController : MonoBehaviour
     void Start()
     {
         bird = transform.GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -25,7 +28,8 @@ public class playerController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown("space") && !dead){
-            bird.velocity = new Vector2(0, 8.5f);
+            bird.velocity = new Vector2(0, 6f);
+            PlayJumpSound();
         }
         if (Input.GetKeyDown("r")){
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
@@ -47,4 +51,10 @@ public class playerController : MonoBehaviour
             scoreText.text = score.ToString();
         }
     }
+
+    void PlayJumpSound()
+    {
+        audioSource.PlayOneShot(jumpSound); // Reproducir el sonido de salto
+    }
 }
+
